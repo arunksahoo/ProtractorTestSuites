@@ -1,4 +1,4 @@
-var logger = require('./log');
+var logger = require('../util/log');
 
 describe("Validating the Calculator app",function(){
 
