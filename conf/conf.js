@@ -17,17 +17,19 @@ exports.config = {
 
 
 
-    specs: ['../test_spec/BankManagerLoginTest_spec.js    '],
+    specs: ['../test_spec/BankManagerLoginTest.spec.js'],
 
 
 
     suites: {
-
+        test_spec : ['../test_spec/*.spec.js'],
         smoke: ['../smoke/*.spec.js'],
         regression: ['../regression/*.spec.js'],
         functional: ['../functional/*.spec.js'],
         all: ['../*/*.spec.js'],
         selected: ['../functional/addcustomer.spec.js','./regression/openaccount.spec.js'],
+
+        // Protractor conf.js --suite test_spec to run from command prompt
 
 
     },

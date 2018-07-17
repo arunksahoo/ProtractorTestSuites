@@ -2,7 +2,6 @@
  * Created by Selenium on 11-03-2016.
  */
 var base = require('../pages/BasePage.js');
-var OR = require('../json/OR.json');
 describe("BankManager Login Test",function(){
 
 
